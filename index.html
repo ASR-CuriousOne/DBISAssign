@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">ASR</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="section hero">
+        <div class="container">
+            <h1>Hi, I'm Ayush</h1>
+            <p class="subtitle">B.Tech CSE 2nd Year, IIT Indore</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I’m a developer who loves building performant applications that use every operation of hardware to maximum efficiency. I primarily work with C/C++, Python, and Vulkan, focusing on GPU-accelerated rendering and simulation. I enjoy diving deep into graphics programming, AI/ML with PyTorch, and game development using Unity and C#. Beyond code, I like crafting 3D models in Blender. I’m also an avid Linux user (yes, I use Arch btw) and love optimizing systems for efficiency. 
+								</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">C / C++</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">AIML (Pytorch)</div>
+                    <div class="skill-item">GameDev (Unity,C#)</div>
+                    <div class="skill-item">3d Modeling (Blender)</div>
+										<div class="skill-item">Linux <br>(I use arch btw)</div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>3d Rendering Engine</h3>
+                        <p>A 3d Rendering Engine made using Vulkan for GPU accerlated rendering, fully supports compute shaders and non blocking compute.</p>
+                        <a href="https://github.com/ASR-CuriousOne/VulkanRenderingEngine" target="_blank" class="btn-secondary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Real VS AI</h3>
+                        <p>Real vs AI image detector. Also provides a explaination for the reason a image might be AI generated.</p>
+                        <a href="https://github.com/ASR-CuriousOne/FakeVsReal" target="_blank" class="btn-secondary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Fluid Simulation</h3>
+                        <p>Liquid Simulation using custom renderer and accerlated using parallel compute on GPU.</p>
+                        <a href="https://github.com/ASR-CuriousOne/FluidSim" target="_blank" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+                <a href="mailto:ayushsrana42@gmail.com" class="btn">Email Me</a>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>....</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
